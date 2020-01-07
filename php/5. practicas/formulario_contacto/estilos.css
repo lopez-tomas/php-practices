@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: borderr-box;
+  box-sizing: border-box; /* Esto nos sirve para que, si nosotros especifiamos que un contenedor,
+                             por ejemplo, tenga 200p, y le agregamos un padding... contando este
+                             último ya van a ser los 200p, por lo tanto el ancho va a ser dinámico*/
+}
+
+body{
+  background: #F2F2F2; /* Fondo color blanco */
+  font-size: 16px;
+  font-family: "PT+Sans", Arial, sans-serif, helvetica;
+}
+
+.wrap{ /* Nos permite encerrar todo nuestro contenedor, con ciertas características*/
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+form{ /* Estilos del formulario */
+ width: 100%;
+ margin: 20px 0; /* Margin arriba y abajo */
+ padding: 20px; /* Margin interno */
+ background: #fff; /* Fondo blanco */
+ overflow: hidden; /* Nos va a servir para el botón de Submit porque le pusiste un float right */
+ box-shadow: 0 0 30px grey; /* Sombra */
+ border-top: 4px solid #563DFE; /* Borde superior */
+}
+
+ /* Reglas CSS */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+/* Podemos poner cuantos INPUTs queramos */
+form textarea{
+  border: 1px solid #5636DFE;
+  border-radius: 2px; /* Para redondear */
+  padding: 16px;
+  width: 100%; /* Ancho del 100% para que los input abarquen todo el espacio disponible*/
+  display: block;
+  margin-bottom: 20px;
+  font-family: "PT+Sans", Arial, sans-serif, helvetica;
+  font-size: 1em;
+  color: #141938;
+}
+
+form input[type="text"]:focus, /* FOCUS es el estado seleccionado de cada input */
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus{
+  border: 2px solid #3F51B5;
+  padding: 15px;
+}
+
+form textarea{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 300px;
+  min-height: 150px;
+}
+
+.alert{
+  padding: 1em;
+  color: #fff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.alert.error{
+  background: #F2DEDE;
+  border: 1px solid #a94442;
+  color: #a94442;
+}
+
+.alert.success{
+  background: #4CAF50;
+}
+
+.btn,
+form input[type="submit"]{
+  padding: 15px;
+  background: #ED572A;
+  color: #E1E9FA;
+  font-size: 1em;
+  font-family: "PT+Sans", Arial, sans-serif, helvetica;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  cursor: pointer; /* Para cambiar el cursor al seleccionar el botón */
+}
+
+form input[type="submit"]:hover{
+  background: #E64A19;
+}
