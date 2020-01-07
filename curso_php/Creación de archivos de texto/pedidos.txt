@@ -1,0 +1,32 @@
+Tomás
+Torquinst 
+1
+--------------------------------------------------------
+Tomás Enrique
+Torquinst
+10
+--------------------------------------------------------
+Nombre:Tomás Enrique Lopez
+Dirección:Torquinst 6395
+Cantidad de Jamón y Queso:2\nCantidad de Napolitana:3\nCantidad de Muzzarella:1\n--------------------------------------------------------
+Nombre: Tomás Enrique Lopez
+Dirección: Torquinst 6395
+Cantidad de Jamón y Queso: 2
+Cantidad de Napolitana: 3
+Cantidad de Muzzarella: 1
+--------------------------------------------------------
+Nombre: 
+Dirección: 
+--------------------------------------------------------
+Nombre: Gustavo Lopez
+Dirección: Marconi 1755
+Cantidad de Jamón y Queso: 2
+Cantidad de Napolitana: 10
+Cantidad de Muzzarella: 5
+--------------------------------------------------------
+Nombre: Nicolas Morales
+Dirección: Tengo el pito corto
+Cantidad de Jamón y Queso: 2
+Cantidad de Napolitana: 3
+Cantidad de Muzzarella: 4
+--------------------------------------------------------
